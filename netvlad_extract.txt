@@ -1,0 +1,6 @@
+python feature_extract.py \
+  --config_path patchnetvlad/configs/netvlad_extract.ini \
+  --dataset_file_path=/Users/idanlau/Desktop/robot_car_dataset_setup/imagename_text_files/2014-12-16-09-14-09.txt \
+  --dataset_root_dir=/Users/idanlau/Desktop/robot_car_dataset_setup/oxford_train_images/2014-12-16-09-14-09 \
+  --output_features_dir patchnetvlad/output_features \
+  --nocuda
