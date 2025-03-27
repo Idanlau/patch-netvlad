@@ -1,0 +1,6 @@
+python feature_extract.py \
+  --config_path patchnetvlad/configs/netvlad_extract.ini \
+  --dataset_file_path=/Users/idanlau/Desktop/nuscenes/nuscene_small_database_image_list.txt \
+  --dataset_root_dir=/Users/idanlau/Desktop/nuscenes/nuscene_small_database \
+  --output_features_dir patchnetvlad/output_features \
+  --nocuda
